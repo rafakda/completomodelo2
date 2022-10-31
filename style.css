@@ -1,0 +1,270 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+:root{
+    --font:white;
+    --font2:black;
+    --itens:orangered;
+}
+
+
+
+header{
+background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.8)),url(nova-plataforma-on-demand-da-b3-600x338.jpeg);
+background-position: center;
+background-size: cover;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+padding-bottom: 30px;
+padding-top: 30px;
+font-weight: 400;
+}
+#div1{
+width: 300px;
+}
+h1{
+color: var(--itens);
+border-bottom: 1px solid (--itens);
+font-size: 30px;
+margin-bottom: 50px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 300;
+}
+h2{
+color:var(--font);
+margin-bottom: 30px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;}
+
+
+#p1{
+color: var(--itens);
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 200;
+}
+#p2{
+color: var(--itens);
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 200;
+}
+FORM{
+width: 280px;
+border-radius: 5px;
+background-color: rgb(95, 95, 95);}
+#forme{
+padding: 20px;
+}
+#h12{
+color: var(--font2);
+font-size: 25px;
+font-weight: 300;
+font-family: Arial, Helvetica, sans-serif;
+}
+#formulario{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 36px;
+justify-content: center;
+}
+input{
+width: 100%;
+border-radius: 5px;
+border: none;
+height: 29px;
+margin: 11px;
+padding-left: 7px;
+}
+label{
+margin-right: auto;
+padding-left: 5px;
+font-family: Arial, Helvetica, sans-serif;
+color:var(--font2);
+margin-bottom: -10px;
+font-weight: bold;
+}
+#bo{
+padding: 20px;
+width: 100%;
+border-radius: 1px;
+background-color:var(--itens);
+border: none;
+box-shadow: 1px 1px 4px var(--font2);
+padding: 1px 1px 1px 1px;
+margin: 1px 1px 1px 1px;
+height: 35px;
+font-family: Arial, Helvetica, sans-serif;
+color:var(--font);
+font-size: 20px;
+}
+#bo:hover{
+    opacity: 80%;
+color: var(--font);
+}
+#bota{
+width: 100%;
+border-radius: 1px;
+margin-top: 10px;
+padding: 1px 1px 1px 1px;
+margin: 1px 1px 1px 1px;
+text-align: center;
+}
+#bot{
+background-color: var(--itens);
+width: 90%;
+color: var(--font);
+box-shadow: 2px 2px 3px var(--font2);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+height: 40px;
+border-radius: none;
+}
+#bot:hover{
+opacity: 80%;
+}
+/*SEPARANDO A CABEÇA DO CORPO*/
+section{
+height: 130px;
+background-color: rgb(95, 95, 95);
+}
+h3{
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+padding-top: 50px;
+text-align: center;
+}
+#s1{
+display: flex;
+background-color:var(--font);
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+height: 500px;
+}
+img{
+border-radius: 50%;
+height: 300px;
+box-shadow: 3px 5px 10px var(--font2);
+width: 300px;
+}
+#imagem{
+border-radius: 3px 3px 3px var(--font2);
+width: 30%;
+text-align: center;
+}
+.pp{
+width: 50%;
+text-align: center;
+margin: auto;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+#rodape{
+background: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.8)),url(nova-plataforma-on-demand-da-b3-600x338.jpeg);
+background-position: center;
+background-size: cover;
+height: 400px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: row;
+}
+#roda1{color: var(--font);
+width: 40%;
+}
+#roda2{    
+width: 40%;
+color: var(--font);
+}
+#r1{
+color: var(--itens);
+font-size: 40px;
+margin: auto;
+width: 70%;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+#r2{
+width: 70%;
+color: var(--font);
+margin: auto;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 300;
+}
+#r3{
+color: var(--font);
+width: 70%;
+margin: auto;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 300;
+}
+#final{
+height: 300px;
+background-color: var(--font);
+}
+@media screen and (max-width:700px) {
+header{
+display: flex;
+flex-direction: column;
+}
+FORM{
+margin-top: 30px;
+}
+h2{
+font-size: 36px;
+}
+#s1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: auto;
+padding-top: 30px;
+}
+.pp{
+width:70%;
+}
+#imagem{
+margin: auto;   
+width: 100%;
+margin: 5px;
+}
+#rodape{
+height: auto;
+display: flex;
+margin-top: 40px;
+flex-direction: column;
+padding-top: 30px;
+padding-bottom: 30px;
+justify-content: center;
+align-items: center;
+}
+#roda1{
+text-align: center;
+width: 100%;
+margin-bottom: 25px;
+}
+#roda2{
+width: 100%;
+text-align: center;
+}
+#r1{
+border: 1px solid var(--font);
+margin-bottom: 30px;
+}
+}
+    
+   
+  
+
+
+
+    
