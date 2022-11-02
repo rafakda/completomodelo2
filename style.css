@@ -4,9 +4,9 @@ margin: 0px;
 box-sizing: border-box;
 }
 :root{
-    --font:white;
+    --font:#eee;
     --font2:black;
-    --itens:orangered;
+    --itens:green;
 }
 
 
